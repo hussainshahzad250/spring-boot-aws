@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: access_key
+      secret-key: secret_key
+    end-point:
+      uri: https://sqs.{region}.amazonaws.com/{account}/test_queue
+
+# region  =>  ap-south-1
+# account =>  0556565655

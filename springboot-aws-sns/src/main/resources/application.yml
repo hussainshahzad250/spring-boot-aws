@@ -1,0 +1,10 @@
+server:
+  port: 8090
+
+cloud:
+  accessKey: access_key
+  secretKey: secret_key
+  topicArn: arn:aws:sns:{region}:{account}:testTopic
+
+# region  =>  ap-south-1
+# account =>  0556565655
